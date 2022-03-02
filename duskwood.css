@@ -1,0 +1,359 @@
+/*Container*/
+.container
+{
+	width:100%;
+	max-width:940px;
+	margin:0 auto;
+}
+
+/*Intro*/
+.intro
+{
+	width:100%;
+	height:100px;
+	background: linear-gradient(to bottom,#787878,#ffffff);
+}
+
+/*Header__inner*/
+.header__inner
+{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding-top:2%;
+}
+
+/*Nav*/
+.nav
+{
+	font-family: 'Kelly Slab', cursive;
+	display: flex;
+	width: 50%;
+	height: 80%;
+	text-align:center;
+	font-size:30px;
+}
+
+.nav__link
+{
+	color:#000000;
+	text-decoration:none;
+	margin:0 0 0 44px;
+}
+
+/*Section*/
+.section
+{
+	width:100%;
+	height:650px;
+	background:url("images/duskwoodfine.jpg") center no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+
+.name
+{
+	width: 904px;
+	height: 225px;
+	margin-left: auto;
+    margin-right: auto;
+	background-attachment: fixed;
+	padding-top:8%;
+	margin-top:1%;
+	
+}
+
+
+.name__un
+{
+	margin-top:3%;
+	
+}
+
+.under__name
+{
+	font-size:59px;
+	margin-left: auto;
+    margin-right: auto;
+	color:#7A746D;
+	width: 880px; 
+	height: 70px;
+	line-height: 60px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	
+}
+
+.text
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.text2
+{
+	font-family: 'Anton', sans-serif;
+}
+
+.section__under
+{
+	width:100%;
+	height:100vh;
+	background: linear-gradient(to bottom,#343C46,#27262B);
+}
+
+
+
+/*Buttom*/
+.btm
+{
+	display:inline-block;
+	vertical-align:top;
+	border:5px solid #A1A1A0;
+	padding:17px 22px;
+	color:#FFFFFF;
+	font-size:30px;
+	font-family: 'Anton', sans-serif;
+	text-decoration:none;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.button-wrapper
+{
+	display: flex;	
+	justify-content: center;
+	margin-top:60px;
+}
+
+.button
+{
+	margin-left:80px;
+	margin-right:40px;
+}
+
+/*Block*/
+.column
+{
+	width: 100%;
+    max-width:1200px;
+    margin: auto;
+    position: relative;
+	padding-top:10px;
+}
+
+p
+{
+	margin:0;
+}
+.text__inner
+{
+	font-size: 35px;
+	color: #90989F;
+	font-family: 'Caveat', cursive;
+	line-height: 44px;
+	width: 325px;
+	height: 44px;
+}
+
+.column__under
+{
+	font-family: 'Russo One', sans-serif;
+	font-size: 35px;
+	color: #FFFFFF;
+	width: 535px;
+	height: 42px;
+	line-height: 42px;
+}
+
+.text__inner__2
+{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #9CA4AB;
+	width: 535px;
+	height: 156px;
+	line-height: 38px;
+}
+
+.text__1
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #9CA4AB;
+	width: 521px;
+	height: 64px;
+	line-height: 31px;
+}
+
+.text__2
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #9CA4AB;
+	width: 525px;
+	height: 64px;
+	line-height: 31px;
+}
+
+.text__3
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #9CA4AB;
+	width: 513px;
+	height: 64px;
+	line-height: 31px;
+}
+
+.text__4
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #9CA4AB;
+	width: 499px;
+	height: 64px;
+	line-height: 31px;
+}
+
+.text__upper1
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top:45px;
+	width: 400px;
+	height: 32px;
+	line-height: 31px;
+}
+
+.text__upper2
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top:45px;
+	line-height: 31px;
+	width: 350px;
+	height: 32px;
+}
+
+.text__upper3
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top:45px;
+	line-height: 31px;
+	width: 500px;
+	height: 32px;
+}
+
+.text__upper4
+{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-top:45px;
+	line-height: 31px;
+	width: 250px;
+	height: 32px;
+}
+
+.mobile
+{
+	width: 500px;
+	height: 720px;
+	background-attachment: fixed;
+	padding-top:1%;
+	margin-right:7%;
+}
+
+.section__under2
+{
+	width:100%;
+	height:100vh;
+	background: linear-gradient(to bottom,#27262B,#000000);
+}
+
+.section__under2
+{
+	text-align:center;
+	padding-top:100px;
+}
+
+.install
+{
+	 margin-top:2%;
+
+}
+
+.text__5
+{
+	width: 504px;
+	height: 84px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 70px;
+	line-height: 84px;
+	color: #FFFFFF;
+}
+
+.install
+{
+	display: flex;	
+	justify-content: center;
+	padding-top:3%;
+
+}
+
+.gplay
+{
+	width: 300px;
+	height: 100px;
+}
+
+.gplay1
+{
+	width: 300px;
+	height: 100px;
+}
+
+.ins__tal
+{
+	margin-right:5%	;
+}
+
+.ins__tal2
+{
+	margin-left:5%;
+}
+
+.text_sub
+{
+	text-align: center;
+}
+
+.subscribe
+{
+	font-family: 'Russo One', sans-serif;
+	color:#FFFFFF;
+	font-size: 50px;
+	padding-top:7%;
+}
+
+.icons
+{
+	display: flex;	
+	justify-content: center;
+	padding-top:3%;
+}
+
+.soc__net
+{
+	width: 100px;
+	height: 100px;
+}
+
+.social2
+{
+	margin:0 3% 0 3%;
+}
