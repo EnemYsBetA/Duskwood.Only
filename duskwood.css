@@ -1,17 +1,22 @@
-/*Container*/
-.container
+body
 {
-	width:100%;
-	max-width:940px;
-	margin:0 auto;
+	margin:0;
 }
 
 /*Intro*/
-.intro
+.intro /*задаём размер блока и указываем цвет*/
 {
 	width:100%;
 	height:100px;
 	background: linear-gradient(to bottom,#787878,#ffffff);
+}
+
+/*Container*/
+.container /*задаем отступы и размер,в пределах которого лежат логотип и ссылки*/
+{
+	width:100%;
+	max-width:940px;
+	margin:0 auto;
 }
 
 /*Header__inner*/
@@ -45,7 +50,7 @@
 .section
 {
 	width:100%;
-	height:650px;
+	height:100vh;
 	background:url("images/duskwoodfine.jpg") center no-repeat;
 	-webkit-background-size:cover;
 	background-size:cover;
@@ -175,41 +180,36 @@ p
 	line-height: 38px;
 }
 
-.text__1
+.text_1
 {
 	font-family: 'Caveat', cursive;
 	font-size: 25px;
 	color: #9CA4AB;
+}
+
+#text__1
+{
 	width: 521px;
 	height: 64px;
 	line-height: 31px;
 }
 
-.text__2
+#text__2
 {
-	font-family: 'Caveat', cursive;
-	font-size: 25px;
-	color: #9CA4AB;
 	width: 525px;
 	height: 64px;
 	line-height: 31px;
 }
 
-.text__3
+#text__3
 {
-	font-family: 'Caveat', cursive;
-	font-size: 25px;
-	color: #9CA4AB;
 	width: 513px;
 	height: 64px;
 	line-height: 31px;
 }
 
-.text__4
+#text__4
 {
-	font-family: 'Caveat', cursive;
-	font-size: 25px;
-	color: #9CA4AB;
 	width: 499px;
 	height: 64px;
 	line-height: 31px;
